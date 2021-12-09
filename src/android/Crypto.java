@@ -23,8 +23,8 @@ public class Crypto {
 
     private static final String TAG = Crypto.class.getSimpleName();
 
-    public static final String PBKDF2_DERIVATION_ALGORITHM = "PBKDF2WithHmacSHA1"; // Android 10+
-    private static final String CIPHER_ALGORITHM = "AES/CBC/PKCS5Padding"; // Android 1+
+    public static final String PBKDF2_DERIVATION_ALGORITHM = "PBKDF2WithHmacSHA512"; // Android 10+
+    private static final String CIPHER_ALGORITHM = "AES/GCM/NoPadding"; // Android 1+
 
     private static String DELIMITER = "@~@~@";
 
